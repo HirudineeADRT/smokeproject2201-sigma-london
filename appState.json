@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4a69d71c-1b51-4634-9809-46cfd65e442b": {
+        "id": "4a69d71c-1b51-4634-9809-46cfd65e442b",
+        "parent": null,
+        "name": "smokeproject2201",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "350d1bf2-d55a-445a-81e4-2dce39c13f79"
+        ],
+        "isRemovable": false,
+        "filePath": "smokeproject2201"
+      },
+      "350d1bf2-d55a-445a-81e4-2dce39c13f79": {
+        "id": "350d1bf2-d55a-445a-81e4-2dce39c13f79",
+        "parent": "4a69d71c-1b51-4634-9809-46cfd65e442b",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokeproject2201/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "f62f21b6-7af8-41d9-9278-93e432d55050": {
+        "id": "f62f21b6-7af8-41d9-9278-93e432d55050",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "c6f75fc1-8ea0-4a14-b485-ba2e11516ba1": {
+        "id": "c6f75fc1-8ea0-4a14-b485-ba2e11516ba1",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "rootNode": "4a69d71c-1b51-4634-9809-46cfd65e442b",
+    "openFiles": [
+      "350d1bf2-d55a-445a-81e4-2dce39c13f79"
+    ],
+    "currentFileId": "350d1bf2-d55a-445a-81e4-2dce39c13f79",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smokeproject2201",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "europe-west2",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1579683871064
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smokeproject2201-sigma-london",
+      "url": "https://github.com/HirudineeADRT/smokeproject2201-sigma-london"
+    }
+  }
+}
